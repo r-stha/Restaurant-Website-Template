@@ -372,6 +372,126 @@ body {
     margin: 0 0 20px 0;
 }
 
+
+.dark-background{
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("Image/pexels-photo-2664216.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-staff
+{
+    width: 450px;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-staff span{
+    font-size: 50px;
+}
+
+.about-staff p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgba(205, 193, 193, 0.792);
+}
+
+
+/* main-section*/
+
+.menu-section{
+    width: 94%;
+    height: 1600px;
+    padding: 38px 0 38px;
+    margin-left:  100px;
+ 
+    /* display: flex;
+    justify-content: center; */
+   
+}
+
+
+.menu-title
+{
+    width: 1350px;
+    height: 160px;
+    /* margin: 0px 150px; */
+    text-align: center;
+    margin-left: 100px;
+}
+
+.menu-title h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(128, 128, 128, 0.84);
+    font-weight: 200;
+}
+
+.menu-title span{
+   font-size: 27px;
+}
+
+.menu-options .menu-selector
+{
+    width: 1300px;
+    height: 60px;
+    text-align: center;
+    margin-left: 130px;
+}
+.menu-options a{
+    text-decoration: none;
+    color: #37373f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    padding: 30px;
+}
+
+.food-items{
+    width: 1500px;
+    height: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 100px;
+   
+
+}
+
+.food-menu-items
+{
+    width: 500px;
+    height: 450px;
+    padding-top: 50px;
+    
+}
+
+.food-menu-items img{
+    width: 450px;
+}
+
+.food-items h4{
+    font-size: 30px;
+    /* width: 150px; */
+    text-align: center;
+}
+.food-items p{
+    font-size: 22px;
+    color: rgba(128, 128, 128, 0.77);
+    text-align: center;
+}
+
+.food-items .red
+{
+    color: #ce121c;
+}
+
+
 /* loading */
 .loading {
     display: flex;
